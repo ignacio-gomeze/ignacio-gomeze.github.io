@@ -3,6 +3,7 @@ title: 'Ignacio Gómez'
 description: 'iOS Developer, ourdoor lover and geek.'
 url: 'https://xrelative.github.io'
 baseurl: '/'
+root: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
