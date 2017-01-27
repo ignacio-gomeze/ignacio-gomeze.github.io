@@ -1,7 +1,7 @@
 # Site settings
 title: 'Ignacio Gómez'
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://relative.cl'
+url: 'https://xrelative.github.io'
 baseurl: '/jekyll-uno/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
