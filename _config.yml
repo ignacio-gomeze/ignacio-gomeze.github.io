@@ -1,7 +1,7 @@
 # Site settings
 title: 'Ignacio Gómez'
 description: 'iOS Developer, ourdoor lover and geek.'
-url: 'https://xrelative.github.io/jekyll-uno'
+url: 'https://xrelative.github.io'
 baseurl: '/jekyll-uno/'
 #root: '/'
 # google_analytics: 'UA-XXXXXX-X'
