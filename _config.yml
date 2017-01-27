@@ -1,9 +1,8 @@
 # Site settings
 title: 'Ignacio Gómez'
 description: 'iOS Developer, ourdoor lover and geek.'
-url: 'https://xrelative.github.io'
+url: 'https://xrelative.github.io/jekyll-uno'
 baseurl: '/jekyll-uno/'
-root: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
