@@ -2,7 +2,8 @@
 title: 'Ignacio Gómez'
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'https://xrelative.github.io'
-baseurl: '/jekyll-uno/'
+baseurl: ''
+root: '/jekyll-uno'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
