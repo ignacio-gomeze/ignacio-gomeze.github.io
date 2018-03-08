@@ -1,40 +1,23 @@
-# Site settings
-title: 'Ignacio Gómez'
-description: 'iOS Developer, outdoor lover and geek'
-url: 'https://xrelative.github.io'
-baseurl: '/'
-root: '/'
-google_analytics: 'UA-44707583-1'
-# disqus_shortname: 'your-disqus-name'
-
+title: Ignacio Gómez
+description: >- # this means to ignore newlines until "baseurl:"
+  iOS Developer & triathlete
 author:
-  name: 'Ignacio Gómez'
+  name: Ignacio Gómez
   email: igomez@relative.cl
-  twitter_username: xrelative
-  facebook_username: xrelative
-  github_username: xrelative
-  linkedin_username: gomezignacio
+#url: 'https://xrelative.github.io'
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#root: '/'
+google_analytics: 'UA-44707583-1'
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# Social accounts
+social:
+  twitter_username: xrelative
+  github_username:  xrelative
+  linkedin_username: gomezignacio
+  medium_username: relative
+  stackoverflow_username: ignacio-gómez
+  stackoverflow_id: 1746482
+  instagram_username: xrelative
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+theme: jekyll-theme-minimal
