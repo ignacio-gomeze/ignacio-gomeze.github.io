@@ -22,11 +22,11 @@ layout: default
 * 50K Endurance Challenge Santiago 2016 (8:53:52)
 * 70K Patagonia Run 2017 (12:14:13)
 
-### Duatlón
+### Duathlon
 
 * Duatlón GP 2018 (1:14:07)
 
-### Triatlón
+### Triathlon
 
 #### Sprint
 * Toughman Half Series Triatlón Quillón 2017 (01:15:52)
