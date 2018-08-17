@@ -8,7 +8,7 @@ categories: race-reports
 
 ![](/assets/img/metaEC50K2015.jpg)
 
-Mi primer ultra trail, 50K, una carrera durísima, para la cual pensé haber entrenado lo suficiente, pero no fue así.La noche, y la semana completa, previa a la carrera me costó mucho conciliar el sueño debido a las ansias y el nerviosismo. La largada era de noche, a las 6:00 hrs., en San Carlos de Apoquindo. Revisé el equipo una y otra vez antes de acostarme a dormir la noche anterior, y con mucho esfuerzo logré dormir alrededor de 4 horas. Afortunadamente esa noche no hubo mucho frío, y el café caliente del “desayuno” de las 3 de la mañana ayudó bastante a que esto así fuese.
+Mi primer ultra trail, 50K, una carrera durísima, para la cual pensé haber entrenado lo suficiente, pero no fue así. La noche, y la semana completa, previa a la carrera me costó mucho conciliar el sueño debido a las ansias y el nerviosismo. La largada era de noche, a las 6:00 hrs., en San Carlos de Apoquindo. Revisé el equipo una y otra vez antes de acostarme a dormir la noche anterior, y con mucho esfuerzo logré dormir alrededor de 4 horas. Afortunadamente esa noche no hubo mucho frío, y el café caliente del “desayuno” de las 3 de la mañana ayudó bastante a que esto así fuese.
 
 Cerca de las 5:20 hrs. llega el ganador de los 160K, Enzo Ferrari, felicidad máxima porque fue un chileno, y uno que realmente se lo merecía por todo el sacrificio y la entrega por este hermoso deporte.
 
@@ -34,9 +34,9 @@ El tramo hasta el próximo punto de control (Antawaya), en el km 27, se me hizo 
 
 En este punto de control volví a descansar, hidratarme y alimentarme, pero me sentía cada vez más exhausto. Me tomé más tiempo de lo habitual, saqué las piedras de las zapatillas, y seguimos el recorrido junto al Nacho Díaz.
 
-En este siguiente tramo, fue fundamental su compañía, me fue tirando prácticamente por 10 kms. Como no lo graba recuperarme, abrí un gel energizante y el efecto fue casi instantáneo, había vuelto a sentirme bien. Ya nada podía salir mal, sólo resistir hasta llegar a la meta.
+En este siguiente tramo, fue fundamental su compañía, me fue tirando prácticamente por 10 kms. Como no lograba recuperarme, abrí un gel energizante y el efecto fue casi instantáneo, había vuelto a sentirme bien. Ya nada podía salir mal, sólo resistir hasta llegar a la meta.
 
-El calor seguía aumentando, pero cada vez faltaba menos. Ya estaba en el último punto de control, en Las Varas, y con los pies estaban destruidos, pero quedaba la última subida (y bajada) antes de la meta, sólo 7 kms.
+El calor seguía aumentando, pero cada vez faltaba menos. Ya estaba en el último punto de control, Las Varas, y con los pies destruidos, pero quedaba la última subida (y bajada) antes de la meta, sólo 7 kms.
 
 La última bajada fue muy dolorosa, tanto para los pies como para los muslos. Costaba mucho frenar y los calambres querían volver. Encontré a varias personas con problemas en el camino, incluso ayudé a estirar los cuádriceps a uno que estaba detenido en medio de la ruta sin poder moverse.
 

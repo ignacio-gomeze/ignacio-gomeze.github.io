@@ -18,7 +18,7 @@ layout: default
 * 42K Vulcano Ultra Trail 2015 (9:45:57)
 
 ### Ultra trail running
-* 50K Endurance Challenge Santiago 2015 (8:16:43)
+* [50K Endurance Challenge Santiago 2015]({{ site.baseurl }}{% post_url 2015-10-20-the-north-face-endurance-challenge-2015-50k %}) (8:16:43)
 * 50K Endurance Challenge Santiago 2016 (8:53:52)
 * 70K Patagonia Run 2017 (12:14:13)
 
