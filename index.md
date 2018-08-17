@@ -2,7 +2,8 @@
 layout: default
 ---
 
-* [Competitions history](competitions)
+#### [Competitions history](competitions)
+#### [Race reports](category/race-reports)
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
