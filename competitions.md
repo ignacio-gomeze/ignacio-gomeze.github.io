@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Races
+## Competitions history
 
 ### Running
 * 21K Maratón de Santiago 2013 (2:15:50)
@@ -38,4 +38,4 @@ layout: default
 * Ironman 70.3 Pucón 2018 (5:34:16)
 * Ironman 70.3 Maceió 2018 (5:00:42)
 
-[back](./)
+[< back](./)
