@@ -24,18 +24,18 @@ layout: default
 
 ### Duathlon
 
-* Duatlón GP 2018 (1:14:07)
+* [Duatlón GP 2018](https://www.instagram.com/p/BjS4RSShcF2) (1:14:07)
 
 ### Triathlon
 
 #### Sprint
-* Toughman Half Series Triatlón Quillón 2017 (01:15:52)
+* [Toughman Half Series Triatlón Quillón 2017](https://www.instagram.com/p/Bazo4DTAqmj) (01:15:52)
 
 #### 51.0
-* Trichallenge Pichidangui 2017 (4:26:10)
+* [Trichallenge Pichidangui 2017](https://www.instagram.com/p/BbXXRtIgj5n) (4:26:10)
 
 #### 70.3
-* Ironman 70.3 Pucón 2018 (5:34:16)
-* Ironman 70.3 Maceió 2018 (5:00:42)
+* [Ironman 70.3 Pucón 2018](https://www.facebook.com/xrelative/posts/10213448034249812) (5:34:16)
+* [Ironman 70.3 Maceió 2018](https://www.instagram.com/p/BmG4Q0rhbVO) (5:00:42)
 
 [< back](./)
