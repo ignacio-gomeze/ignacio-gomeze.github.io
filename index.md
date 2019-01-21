@@ -4,7 +4,7 @@ layout: default
 
 #### [Competitions history](competitions)
 #### [Race reports](category/race-reports)
-#### [Race time simulator](category/race-time-simulator)
+#### [Race time simulator](race-time-simulator)
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
