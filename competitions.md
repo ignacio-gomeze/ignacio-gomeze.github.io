@@ -37,5 +37,6 @@ layout: default
 #### 70.3
 * [Ironman 70.3 Pucón 2018](https://www.facebook.com/xrelative/posts/10213448034249812) (5:34:16)
 * [Ironman 70.3 Maceió 2018](https://www.instagram.com/p/BmG4Q0rhbVO) (5:00:42)
+* [Ironman 70.3 Pucón 2019](https://www.instagram.com/p/Bsn429Zg5UQ/) (5:05:23)
 
 [< back](./)
