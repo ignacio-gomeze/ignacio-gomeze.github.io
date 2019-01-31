@@ -35,8 +35,8 @@ layout: default
 * [Trichallenge Pichidangui 2017](https://www.instagram.com/p/BbXXRtIgj5n) (4:26:10)
 
 #### 70.3
-* [Ironman 70.3 Pucón 2018](https://www.facebook.com/xrelative/posts/10213448034249812) (5:34:16)
-* [Ironman 70.3 Maceió 2018](https://www.instagram.com/p/BmG4Q0rhbVO) (5:00:42)
+* [Ironman 70.3 Pucón 2018](https://xrelative.wordpress.com/2018/11/09/ironman-70-3-pucon-2018) (5:34:16)
+* [Ironman 70.3 Maceió 2018](https://xrelative.wordpress.com/2018/11/02/ironman-70-3-maceio-2018/) (5:00:42)
 * [Ironman 70.3 Pucón 2019](https://www.instagram.com/p/Bsn429Zg5UQ/) (5:05:23)
 
 [< back](./)
