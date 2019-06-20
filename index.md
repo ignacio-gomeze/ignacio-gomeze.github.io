@@ -2,6 +2,7 @@
 layout: default
 ---
 
+#### [Resume](assets/docs/resume.pdf)
 #### [Competitions history](competitions)
 #### [Race reports](category/race-reports)
 #### [Race time simulator](race-time-simulator)
