@@ -4,7 +4,7 @@ layout: default
 
 #### [Resume](assets/docs/resume.pdf)
 #### [Competitions history](competitions)
-#### [Race reports](https://xrelative.wordpress.com)
+#### [Race reports](https://xrelative.wordpress.com){:target="_blank"}
 #### [Race time simulator](race-time-simulator)
 
 <!--
