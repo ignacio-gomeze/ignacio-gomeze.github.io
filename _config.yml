@@ -1,24 +1,120 @@
-title: Ignacio Gómez
-description: >- # this means to ignore newlines until "baseurl:"
-  iOS Software Engineer & Triathlete
-author:
-  name: Ignacio Gómez
-  email: igomez@relative.cl
-#url: 'https://xrelative.github.io'
-#baseurl: "/" # the subpath of your site, e.g. /blog
-#root: '/'
-google_analytics: 'UA-44707583-1'
+# main text of home
+name: Ignacio Gómez
+bio: A man who enjoy doing triathlon and write some code
 
-# Social accounts
-social:
-  twitter_username: xrelative
-  github_username:  xrelative
-  linkedin_username: gomezignacio
-  medium_username: relative
-  stackoverflow_username: ignacio-gómez
-  stackoverflow_id: 1746482
-  instagram_username: xrelative
-  wordpress_username: xrelative
+# twitter summary info
+description: A personal page about technology and some sport
 
-# Build settings
-theme: jekyll-theme-minimal
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
+
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: false
+resume-url: assets/docs/resume.pdf
+
+url: http://relative.cl
+# your url: http://USERNAME.github.io
+
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-44707583-1'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, leave categories empty
+# disqus:
+#   shortname: mydisqus # enter this from your disqus account
+#   categories: [blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+facebook: xrelative
+twitter: xrelative
+# google: mygoogle
+instagram: xrelative
+# pinterest: mypinterest
+linkedin: gomezignacio
+# youtube: myyoutube
+# spotify: myspotify
+github: xrelative
+# gitlab: mygitlab
+# lastfm: mylastfm
+stackoverflow: 1746482/mystackoverflow
+# quora: userquora
+# reddit: username
+medium: relative
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+email: igomez@relative.cl
+
+authors:
+    johndoe:
+        name: John Doe
+        bio: A Man who travels the world eating noodles
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: johndoe
+    jamesfoster:
+        name: James Foster
+        bio: A Man who develops software with coffee
+        external-image: false
+        picture: assets/images/james.jpg
+        twitter: jamesfoster
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+# projects: true
+
+# if you don't need "about" or "blog", comment them out below
+# about: true
+# blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+
+jekyll-mentions:
+    base_url: https://github.com
+
+compress_html:
+    ignore:
+        envs:
+        - development
+        - stage
+
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
