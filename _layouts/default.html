@@ -1,71 +1,54 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
-{% seo %}
+    <meta name=description content="{{ site.bio }}">
+    <meta name=author content="{{ site.name }}">
+    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
+    <meta property="og:type" content="profile">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <a href="/"> <h1>{{ site.title }}</h1> </a>
-        <p>{{ site.description }}</p>
+    {% seo %}
+    
+    {% include favicon.html %}
 
-        {% if site.social.linkedin_username %}
-	  <a href="https://www.linkedin.com/in/{{ site.social.linkedin_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptLTIgMTZoLTJ2LTZoMnY2em0tMS02Ljg5MWMtLjYwNyAwLTEuMS0uNDk2LTEuMS0xLjEwOSAwLS42MTIuNDkyLTEuMTA5IDEuMS0xLjEwOXMxLjEuNDk3IDEuMSAxLjEwOWMwIC42MTMtLjQ5MyAxLjEwOS0xLjEgMS4xMDl6bTggNi44OTFoLTEuOTk4di0yLjg2MWMwLTEuODgxLTIuMDAyLTEuNzIyLTIuMDAyIDB2Mi44NjFoLTJ2LTZoMnYxLjA5M2MuODcyLTEuNjE2IDQtMS43MzYgNCAxLjU0OHYzLjM1OXoiLz48L3N2Zz4="></a>
-        {% endif %}
-	{% if site.social.twitter_username %}
-	  <a href="https://twitter.com/{{ site.social.twitter_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptNi4wNjYgOS42NDVjLjE4MyA0LjA0LTIuODMgOC41NDQtOC4xNjQgOC41NDQtMS42MjIgMC0zLjEzMS0uNDc2LTQuNDAyLTEuMjkxIDEuNTI0LjE4IDMuMDQ1LS4yNDQgNC4yNTItMS4xODktMS4yNTYtLjAyMy0yLjMxNy0uODU0LTIuNjg0LTEuOTk1LjQ1MS4wODYuODk1LjA2MSAxLjI5OC0uMDQ5LTEuMzgxLS4yNzgtMi4zMzUtMS41MjItMi4zMDQtMi44NTMuMzg4LjIxNS44My4zNDQgMS4zMDEuMzU5LTEuMjc5LS44NTUtMS42NDEtMi41NDQtLjg4OS0zLjgzNSAxLjQxNiAxLjczOCAzLjUzMyAyLjg4MSA1LjkyIDMuMDAxLS40MTktMS43OTYuOTQ0LTMuNTI3IDIuNzk5LTMuNTI3LjgyNSAwIDEuNTcyLjM0OSAyLjA5Ni45MDcuNjU0LS4xMjggMS4yNy0uMzY4IDEuODI0LS42OTctLjIxNS42NzEtLjY3IDEuMjMzLTEuMjYzIDEuNTg5LjU4MS0uMDcgMS4xMzUtLjIyNCAxLjY0OS0uNDUzLS4zODQuNTc4LS44NyAxLjA4NC0xLjQzMyAxLjQ4OXoiLz48L3N2Zz4="></a>
-        {% endif %}
-        {% if site.social.medium_username %}
-	  <a href="https://medium.com/@{{ site.social.medium_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMiAwYy02LjYyNiAwLTEyIDUuMzcyLTEyIDEyIDAgNi42MjcgNS4zNzQgMTIgMTIgMTIgNi42MjcgMCAxMi01LjM3MyAxMi0xMiAwLTYuNjI4LTUuMzczLTEyLTEyLTEyem02Ljk3NCAxNy41NTd2LS4yMzVsLTEuMDkyLTEuMDcyYy0uMDk2LS4wNzMtLjE0NC0uMTk0LS4xMjQtLjMxM3YtNy44NzRjLS4wMi0uMTE5LjAyOC0uMjQuMTI0LS4zMTNsMS4xMTgtMS4wNzJ2LS4yMzVoLTMuODY5bC0yLjc1OCA2Ljg4LTMuMTM4LTYuODhoLTQuMDU5di4yMzVsMS4zMDggMS41NzVjLjEyOC4xMTUuMTk0LjI4NS4xNzYuNDU3djYuMTg4Yy4wMzguMjIzLS4wMzIuNDUxLS4xODkuNjE0bC0xLjQ3MSAxLjc4NHYuMjM1aDQuMTd2LS4yMzVsLTEuNDcxLTEuNzg0Yy0uMTU4LS4xNjMtLjIzMy0uMzg5LS4yMDItLjYxNHYtNS4zNTJsMy42NiA3Ljk4NWguNDI1bDMuMTQzLTcuOTg1djYuMzY1YzAgLjE3IDAgLjIwMi0uMTExLjMxM2wtMS4xMyAxLjA5OHYuMjM1aDUuNDl6Ii8+PC9zdmc+"></a>
-        {% endif %}
-        {% if site.social.github_username %}
-	  <a href="https://github.com/{{ site.social.github_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptMi4yMTggMTguNjE2Yy0uMzU0LjA2OS0uNDY4LS4xNDktLjQ2OC0uMzM2di0xLjkyMWMwLS42NTMtLjIyOS0xLjA3OS0uNDgxLTEuMjk2IDEuNTYtLjE3MyAzLjE5OC0uNzY1IDMuMTk4LTMuNDU0IDAtLjc2NS0uMjczLTEuMzg5LS43MjEtMS44NzkuMDcyLS4xNzcuMzEyLS44ODktLjA2OS0xLjg1MyAwIDAtLjU4Ny0uMTg4LTEuOTIzLjcxNy0uNTYxLS4xNTQtMS4xNTktLjIzMS0xLjc1NC0uMjM0LS41OTUuMDAzLTEuMTkzLjA4LTEuNzUzLjIzNS0xLjMzNy0uOTA1LTEuOTI1LS43MTctMS45MjUtLjcxNy0uMzc5Ljk2NC0uMTQgMS42NzYtLjA2NyAxLjg1Mi0uNDQ4LjQ5LS43MjIgMS4xMTQtLjcyMiAxLjg3OSAwIDIuNjgyIDEuNjM0IDMuMjgyIDMuMTg5IDMuNDU5LS4yLjE3NS0uMzgxLjQ4My0uNDQ0LjkzNi0uNC4xNzktMS40MTMuNDg4LTIuMDM3LS41ODIgMCAwLS4zNy0uNjcyLTEuMDczLS43MjIgMCAwLS42ODMtLjAwOS0uMDQ4LjQyNiAwIDAgLjQ2LjIxNS43NzcgMS4wMjQgMCAwIC40MDUgMS4yNSAyLjM1My44MjZ2MS4zMDNjMCAuMTg1LS4xMTMuNDAyLS40NjIuMzM3LTIuNzgyLS45MjUtNC43ODgtMy41NDktNC43ODgtNi42NDEgMC0zLjg2NyAzLjEzNS03IDctN3M3IDMuMTMzIDcgN2MwIDMuMDkxLTIuMDAzIDUuNzE1LTQuNzgyIDYuNjQxeiIvPjwvc3ZnPg=="></a>
-        {% endif %}
-        {% if site.social.stackoverflow_username %}
-	  <a href="https://stackoverflow.com/users/{{ site.social.stackoverflow_id }}/{{ site.social.stackoverflow_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptLjg2OSA1LjkwM2wzLjExNCA0LjU2Ny0uOTc1LjY2NS0zLjExNS00LjU2Ny45NzYtLjY2NXptLTIuODEyIDIuNTg1bDQuODQgMi44MzgtLjYgMS4wMTctNC44NDItMi44MzguNjAyLTEuMDE3em0tMS4yNzYgMi43MjRsNS40MTMgMS41MjEtLjI5MSAxLjA3Ny01LjQyOC0xLjQ1OC4zMDYtMS4xNHptLS41ODggMi40NjFsNS42ODcuNTY5LS4xMDMgMS4xMi01LjY5MS0uNTEzLjEwNy0xLjE3NnptLS4xNjkgMi4xNmg1LjgzNXYxLjE2N2gtNS44MzV2LTEuMTY3em03Ljk3NiAzLjE2N2gtMTB2LTZoMXY1aDh2LTVoMXY2em0uMTk1LTguNjAybC0uOTQ1LTUuNDQ2IDEuMTYyLS4yMDIuOTQ3IDUuNDQ2LTEuMTY0LjIwMnoiLz48L3N2Zz4="></a>
-        {% endif %}
-        {% if site.social.instagram_username %}
-	  <a href="https://instagram.com/{{ site.social.instagram_username }}" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTQuODI5IDYuMzAyYy0uNzM4LS4wMzQtLjk2LS4wNC0yLjgyOS0uMDRzLTIuMDkuMDA3LTIuODI4LjA0Yy0xLjg5OS4wODctMi43ODMuOTg2LTIuODcgMi44Ny0uMDMzLjczOC0uMDQxLjk1OS0uMDQxIDIuODI4cy4wMDggMi4wOS4wNDEgMi44MjljLjA4NyAxLjg3OS45NjcgMi43ODMgMi44NyAyLjg3LjczNy4wMzMuOTU5LjA0MSAyLjgyOC4wNDEgMS44NyAwIDIuMDkxLS4wMDcgMi44MjktLjA0MSAxLjg5OS0uMDg2IDIuNzgyLS45ODggMi44Ny0yLjg3LjAzMy0uNzM4LjA0LS45Ni4wNC0yLjgyOXMtLjAwNy0yLjA5LS4wNC0yLjgyOGMtLjA4OC0xLjg4My0uOTczLTIuNzgzLTIuODctMi44N3ptLTIuODI5IDkuMjkzYy0xLjk4NSAwLTMuNTk1LTEuNjA5LTMuNTk1LTMuNTk1IDAtMS45ODUgMS42MS0zLjU5NCAzLjU5NS0zLjU5NHMzLjU5NSAxLjYwOSAzLjU5NSAzLjU5NGMwIDEuOTg1LTEuNjEgMy41OTUtMy41OTUgMy41OTV6bTMuNzM3LTYuNDkxYy0uNDY0IDAtLjg0LS4zNzYtLjg0LS44NCAwLS40NjQuMzc2LS44NC44NC0uODQuNDY0IDAgLjg0LjM3Ni44NC44NCAwIC40NjMtLjM3Ni44NC0uODQuODR6bS0xLjQwNCAyLjg5NmMwIDEuMjg5LTEuMDQ1IDIuMzMzLTIuMzMzIDIuMzMzcy0yLjMzMy0xLjA0NC0yLjMzMy0yLjMzM2MwLTEuMjg5IDEuMDQ1LTIuMzMzIDIuMzMzLTIuMzMzczIuMzMzIDEuMDQ0IDIuMzMzIDIuMzMzem0tMi4zMzMtMTJjLTYuNjI3IDAtMTIgNS4zNzMtMTIgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTItNS4zNzMtMTItMTItMTJ6bTYuOTU4IDE0Ljg4NmMtLjExNSAyLjU0NS0xLjUzMiAzLjk1NS00LjA3MSA0LjA3Mi0uNzQ3LjAzNC0uOTg2LjA0Mi0yLjg4Ny4wNDJzLTIuMTM5LS4wMDgtMi44ODYtLjA0MmMtMi41NDQtLjExNy0zLjk1NS0xLjUyOS00LjA3Mi00LjA3Mi0uMDM0LS43NDYtLjA0Mi0uOTg1LS4wNDItMi44ODYgMC0xLjkwMS4wMDgtMi4xMzkuMDQyLTIuODg2LjExNy0yLjU0NCAxLjUyOS0zLjk1NSA0LjA3Mi00LjA3MS43NDctLjAzNS45ODUtLjA0MyAyLjg4Ni0uMDQzczIuMTQuMDA4IDIuODg3LjA0M2MyLjU0NS4xMTcgMy45NTcgMS41MzIgNC4wNzEgNC4wNzEuMDM0Ljc0Ny4wNDIuOTg1LjA0MiAyLjg4NiAwIDEuOTAxLS4wMDggMi4xNC0uMDQyIDIuODg2eiIvPjwvc3ZnPg=="></a>
-        {% endif %}
-        {% if site.social.wordpress_username %}
-	  <a href="https://{{ site.social.wordpress_username }}.wordpress.com/" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTYuMDIyLDM0YzAsMTIuMTYxLTkuODYyLDIyLjAyMS0yMi4wMjIsMjIuMDIxICBjLTEyLjE2MSwwLTIyLjAyMi05Ljg2LTIyLjAyMi0yMi4wMjFTMjEuODM5LDExLjk3OCwzNCwxMS45NzhDNDYuMTYsMTEuOTc4LDU2LjAyMiwyMS44MzksNTYuMDIyLDM0eiBNNTQuNzEzLDM0ICBjMCwxMS40MzgtOS4yNzUsMjAuNzEzLTIwLjcxMywyMC43MTNTMTMuMjg3LDQ1LjQzOCwxMy4yODcsMzRjMC0xMS40MzgsOS4yNzUtMjAuNzEzLDIwLjcxMy0yMC43MTNTNTQuNzEzLDIyLjU2Miw1NC43MTMsMzR6ICAgTTE1LjA2MywzNGMwLTIuODAxLDAuNjA5LTUuNDYxLDEuNzAyLTcuODUzbDkuMTMyLDI0Ljk3MUMxOS40OTQsNDguMDgxLDE1LjA2Myw0MS41NTcsMTUuMDYzLDM0eiBNMzQsNTIuOTM2ICBjLTEuOTE2LDAtMy43NjQtMC4yODUtNS41MDctMC44MTRsNS44MzMtMTYuNzE5bDYuMDE0LDE2LjQ0NUMzOC4zNTcsNTIuNTUxLDM2LjIyNSw1Mi45MzYsMzQsNTIuOTM2eiBNNTIuOTM3LDM0ICBjMCw3LjE2My0zLjk3OSwxMy4zOTgtOS44NDksMTYuNjE1bDUuOTA3LTE2LjcyOGMwLjkxNS0yLjU4OSwxLjc2NC02LjA4OCwxLjY2LTguOTA1QzUyLjExLDI3LjY2NCw1Mi45MzcsMzAuNzM2LDUyLjkzNywzNHogICBNNDYuODEsMjAuMDU2Yy0zLjM3Mi0zLjA5OS03Ljg3LTQuOTkyLTEyLjgxLTQuOTkyYy02LjY2LDAtMTIuNTE4LDMuNDQtMTUuODkzLDguNjRjMi4xNTEtMC4wMjIsNC40Ni0wLjA0Niw2Ljc2MS0wLjE2OCAgYzAuMDk5LTAuMDA2LDAuMTgxLDAuMDg0LDAuMTgxLDAuMTg4djEuMTM0YzAsMC4xMDQtMC4wODEsMC4xODktMC4xODEsMC4xODloLTIuMTkyYy0wLjI0NiwwLTAuMzQ5LDAuMTQ4LTAuMjYzLDAuNDAxbDYuODc3LDIwLjI1OSAgbDQuMTg1LTEyLjYzNGwtMi43ODItNy42MDhjLTAuMTAxLTAuMjc1LTAuMjIxLTAuNDE4LTAuNjQ5LTAuNDE4aC0xLjkyNGMtMC4wOTksMC0wLjE4MS0wLjA4NS0wLjE4MS0wLjE4OXYtMS4xMzQgIGMwLTAuMTA0LDAuMDgyLTAuMTkzLDAuMTgxLTAuMTg5YzMuNTgxLDAuMTYsNy4xODQsMC4xNTksMTAuODA5LDBjMC4xLTAuMDA0LDAuMTgxLDAuMDg1LDAuMTgxLDAuMTg5djEuMTM0ICBjMCwwLjEwNC0wLjA4MSwwLjE4OS0wLjE4MSwwLjE4OWgtMS45MTRjLTAuMzc5LDAtMC41MDIsMC4xNzUtMC4zOTYsMC40ODRsNi43NywxOS45NDFsMi40ODYtNy41NjYgIGMzLjAwNS05LjE0Ny0yLjU3Mi0xMC4xMTUtMi40MzQtMTQuNjYzQzQzLjUwOCwyMC45OTQsNDUuMTU3LDIwLjAxMiw0Ni44MSwyMC4wNTZ6IE0zNCw2NEMxNy40MzIsNjQsNCw1MC41NjgsNCwzNCAgQzQsMTcuNDMxLDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDMwLDMwQzY0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojMDEwMTAxOyIvPjwvc3ZnPg=="></a>
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+        {% if page.tag %}
+            <div class="post">
+        {% else %}
+            {% if showHeader != true %}
+                <div class="page {{ page.title | downcase }}">
+            {% else %}
+                <div class="{{ page.title | downcase }}">
+            {% endif %}
         {% endif %}
 
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a
-	href="https://github.com/orderedlist">orderedlist</a></small></p>-->
-        <p><small>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All
-	rights reserved.</small></p>
-      </footer>
+            {{ content }}
+        </div>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
+    {% include icons.html %}
 
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
-  </body>
+</body>
 </html>
