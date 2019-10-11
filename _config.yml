@@ -16,6 +16,10 @@ resume: true
 resume-external: false
 resume-url: assets/docs/resume.pdf
 
+# Custom sections
+competitions: true
+raceTimeSimulator: true
+
 url: http://relative.cl
 # your url: http://USERNAME.github.io
 
@@ -84,10 +88,10 @@ width: normal
 # blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+# read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+# show-tags: true
 
 # related posts inside a post?
 related: true
