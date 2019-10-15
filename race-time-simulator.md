@@ -14,7 +14,7 @@ layout: page
 |  Run  |  <input type="text" id="run_pace_minutes" placeholder="0" maxlength="1" size="1" onKeyPress='validateNumber(event)' onInput='calculateTime()'>:<input type="text" id="run_pace_seconds" placeholder="00" maxlength="2" size="2" onkeypress='validateNumber(event)' onInput='calculateTime()'> min/km | <input type="text" id="run_distance" placeholder="21" maxlength="2" size="2" onKeyPress='validateNumber(event)' onInput='calculateTime()'> km | <span style="font-weight:bold" id="run_time">0:00:00</span> h:mm:ss |
 | Total |             |          | <span style="font-weight:bold" id="total_time">0:00:00</span> h:mm:ss |
 
-[< back](./)
+
 
 <script type="text/javascript">
 	function validateNumber(evt) {
