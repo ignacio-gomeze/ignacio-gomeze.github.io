@@ -26,6 +26,8 @@ layout: page
 ### Duathlon
 
 * Duatlón GP 2018 (1:14:07)
+* 2º Duatlón Fechitri Casablanca 2019 (1:05:36)
+* 2º Duatlón GP 2019 (1:15:07)
 
 ### Triathlon
 
@@ -34,10 +36,9 @@ layout: page
 
 #### 51.0
 * Trichallenge Pichidangui 2017 (4:26:10)
+* Cruzando el Bio Bio 2019 (3:41:27)
 
 #### 70.3
 * Ironman 70.3 Pucón 2018 (5:34:16)
 * Ironman 70.3 Maceió 2018 (5:00:42)
 * Ironman 70.3 Pucón 2019 (5:05:23)
-
-[< back](./)
