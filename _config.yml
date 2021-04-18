@@ -20,7 +20,7 @@ resume-url: assets/docs/resume.pdf
 # Sections
 about: true
 competitions: true
-raceTimeSimulator: true
+simulator: true
 
 url: https://ignaciogomeze.com
 # your url: http://USERNAME.github.io
