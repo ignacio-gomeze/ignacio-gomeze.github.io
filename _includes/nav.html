@@ -30,12 +30,6 @@
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}" target="_blank">Résumé</a>
-            </li>
-        {% endif %}
-
         {% if site.competitions == true %}
             {% if page.title != "Competitions" %}
                 <li class="item">
