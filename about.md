@@ -2,22 +2,22 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<img src="{{ site.url }}/{{ site.picture }}" style="border-radius:50%">
 
-<p>I'm iOS Software Engineer, right now I'm head of a mobile team in a marketplace company. I like to be constantly learning and trying new trends in mobile development, architecture and technology in general.</p>
+<p>I'm software engineer, right now I'm mobile manager at chilean fintech company. I like to be constantly learning and trying new trends in software development, architecture and technology in general.</p>
 
 <p>In my free time I do triathlon, I love feeling challenged and push myself to break limits and discover that everything I propose to myself I can reach with enough motivation and discipline.</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>iOS development (Obj-C - Swift)</li>
-	<li>Clean Architecture - Viper</li>
+	<li>Software development</li>
+	<li>Clean Architecture</li>
 	<li>SOLID principles</li>
-	<li>Git</li>
-	<li>GraphQL</li>
-	<li>Scrum and Kanban</li>
-	<li>Continuous Integration</li>
+	<li>BFF</li>
+	<li>Agile</li>
+	<li>CI/CD</li>
+	<li>Leadership</li>
 </ul>
 
 <!--

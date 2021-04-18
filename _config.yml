@@ -1,6 +1,6 @@
 # main text of home
-name: Ignacio Gómez
-bio: A man who does triathlon and write some code
+name: Ignacio Gómez E.
+bio: Software engineer & triathlon enthusiast
 
 # twitter summary info
 description: A personal page about technology and some of sport
@@ -9,6 +9,7 @@ description: A personal page about technology and some of sport
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
+logo: assets/images/logo.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -23,7 +24,7 @@ raceTimeSimulator: true
 
 url: http://relative.cl
 # your url: http://USERNAME.github.io
-blog_url: http://xrelative.wordpress.com
+blog_url: http://ignaciogomeze.wordpress.com
 
 permalink: /:title/
 
@@ -40,24 +41,24 @@ analytics-google: 'UA-44707583-1'
 #   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: xrelative
-twitter: xrelative
+#facebook: xrelative
+twitter: ignacio_gomeze
 # google: mygoogle
-instagram: xrelative
+instagram: ignacio.gomeze
 # pinterest: mypinterest
 linkedin: gomezignacio
 # youtube: myyoutube
 # spotify: myspotify
-github: xrelative
+github: ignacio.gomeze
 # gitlab: mygitlab
 # lastfm: mylastfm
-stackoverflow: 1746482/mystackoverflow
+#stackoverflow: 1746482/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: relative
+medium: ignacio.gomeze
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: igomez@relative.cl
+email: ignacio.gomeze@icloud.com
 
 authors:
     johndoe:
