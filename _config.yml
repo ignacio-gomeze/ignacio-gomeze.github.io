@@ -22,9 +22,9 @@ about: true
 competitions: true
 raceTimeSimulator: true
 
-url: http://relative.cl
+url: https://relative.cl
 # your url: http://USERNAME.github.io
-blog_url: http://ignaciogomeze.wordpress.com
+blog_url: https://ignaciogomeze.wordpress.com
 
 permalink: /:title/
 
