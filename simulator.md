@@ -1,5 +1,5 @@
 ---
-title: Race time simulator
+title: Simulator
 layout: page
 ---
 
