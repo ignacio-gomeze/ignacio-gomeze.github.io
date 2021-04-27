@@ -1,6 +1,6 @@
 # main text of home
 name: Ignacio Gómez E.
-bio: 👨🏻‍💻 Software engineer  |  ☕️ lover  |  🏊🏻‍♂️🚴🏻‍♂️🏃🏻‍♂️ enthusiast
+bio: 👨🏻‍💻 Software engineer  |  ☕️ Coffee lover  |  🏊🏻‍♂️🚴🏻‍♂️🏃🏻‍♂️ Enthusiast triathlete
 
 # twitter summary info
 description: A personal page about technology and some of sport
@@ -24,7 +24,7 @@ simulator: true
 
 url: https://ignaciogomeze.com
 # your url: http://USERNAME.github.io
-blog_url: https://ignaciogomeze.wordpress.com
+blog_url: https://blog.ignaciogomeze.com
 
 permalink: /:title/
 
@@ -55,7 +55,7 @@ github: ignacio-gomeze
 #stackoverflow: 1746482/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: ignacio.gomeze
+# medium: ignacio.gomeze
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: ignacio.gomeze@icloud.com
