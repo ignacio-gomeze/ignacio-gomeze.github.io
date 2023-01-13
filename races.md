@@ -37,8 +37,12 @@ layout: page
 #### 51.0
 * Trichallenge Pichidangui 2017 (4:26:10)
 * Cruzando el Bio Bio 2019 (3:41:27)
+* Cruzando el Bio Bio 2022 (3:28:16)
 
 #### 70.3
 * Ironman 70.3 Pucón 2018 (5:34:16)
 * Ironman 70.3 Maceió 2018 (5:00:42)
 * Ironman 70.3 Pucón 2019 (5:05:23)
+* Ironman 70.3 Coquimbo 2019 (5:07:14)
+* Ironman 70.3 Pucón 2022 (5:27:46)
+* Ironman 70.3 Pucón 2023 (5:10:05)
