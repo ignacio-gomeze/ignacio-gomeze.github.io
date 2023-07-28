@@ -46,3 +46,7 @@ layout: page
 * Ironman 70.3 Coquimbo 2019 (5:07:14)
 * Ironman 70.3 Pucón 2022 (5:27:46)
 * Ironman 70.3 Pucón 2023 (5:10:05)
+* Ironman 70.3 San Juan 2023 (4:50:32)
+
+#### 140.6
+* Ironman Brazil 2023 (11:32:03)
